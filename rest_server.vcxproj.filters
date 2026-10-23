@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\angel\Downloads\rest-c-main (1)\rest-c-main\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\angel\Downloads\rest-c-main (1)\rest-c-main\src\lib\sqlite_loader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\angel\Downloads\rest-c-main (1)\rest-c-main\src\modules\example\stats.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\angel\Downloads\rest-c-main (1)\rest-c-main\src\modules\individual\task.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\angel\Downloads\rest-c-main (1)\rest-c-main\src\modules\individual\variant_mine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\angel\Downloads\rest-c-main (1)\rest-c-main\src\modules\individual\variant_roi.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\angel\Downloads\rest-c-main (1)\rest-c-main\src\routes\auth.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\angel\Downloads\rest-c-main (1)\rest-c-main\src\routes\public.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\angel\Downloads\rest-c-main (1)\rest-c-main\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F05AE413-1CFF-32B4-820D-C5B30222596B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{65283C05-3917-3529-AE4A-E5C8E1A2155C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

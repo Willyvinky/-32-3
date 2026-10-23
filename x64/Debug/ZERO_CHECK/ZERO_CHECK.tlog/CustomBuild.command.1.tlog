@@ -1,0 +1,10 @@
+^C:\USERS\ANGEL\DOWNLOADS\REST-C-MAIN (1)\REST-C-MAIN\CMAKEFILES\2FC1DFDC0BD6CBF1D3EBBBA908AD93B1\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/angel/Downloads/rest-c-main (1)/rest-c-main" "-BC:/Users/angel/Downloads/rest-c-main (1)/rest-c-main" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/angel/Downloads/rest-c-main (1)/rest-c-main/rest_c_server.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
